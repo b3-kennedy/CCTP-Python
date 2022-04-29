@@ -5,7 +5,9 @@ Created on Wed Feb 16 15:15:50 2022
 @author: Ben
 """
 
-
+"""
+Created with help from Johannes Schmidt https://towardsdatascience.com/creating-and-training-a-u-net-model-with-pytorch-for-2d-3d-semantic-segmentation-dataset-fb1f7f80fe55. 
+"""
 
 
 import torch
