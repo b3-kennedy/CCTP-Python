@@ -11,11 +11,6 @@ import glob
 
 
 
-
-
-
-#datasetloading.train()
-
 def Predictions():
     print("Making Predictions...")
     makeprediction.Prediction("Images/", "Models/BuildingDropout18Endfix", "Predictions/Buildings/" + "buildings" + ".png")
@@ -62,23 +57,6 @@ ProcessTrees()
 ProcessGrass()
 ProcessRoads()
 
-
-
-# #process roads
-# pixelloop.processMask()
-# pixelloop.colourDistribution()
-
-# #process grass
-# pixelloop.processMask()
-# pixelloop.colourDistribution()
-
-# #process trees
-# treePositionFile = "treePos"
-# treeAreaFile = "treeArea"
-# treeMask = fileName
-# pixelloop.processMask()
-# pixelloop.colourDistribution()
-# poisson.run()
 
 
 
