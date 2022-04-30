@@ -12,7 +12,7 @@ Within the Unity Project:
 2. Within the Resources folder create a new folder and with the subdirectories 'Buildings' and 'Other'.
 3. Drag the text files within the 'Foliage' folder from the python project into the 'Other' folder within Unity.
 4. Drag the folders in the 'Geometry' folder from the python project into the 'Buildings' folder within Unity.
-5. On the 'World' asset within the scene locate the 'Get Text Files' script and change the paths to correspond with folder you created within the 'Resources folder'.
+5. On the 'World' asset within the scene locate the 'Get Text Files' script and change the paths to correspond with folder you created within the 'Resources' folder.
 
 Link to Unity project: https://github.com/b3-kennedy/CCTP-Unity
 
